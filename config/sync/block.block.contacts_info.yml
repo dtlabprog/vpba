@@ -1,0 +1,25 @@
+uuid: bd84b5e2-7d71-43af-90a3-ce18293a384c
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:78ad3e7a-851e-4ebf-abe8-5f027d22b6ee'
+  module:
+    - block_content
+  theme:
+    - vpba
+id: contacts_info
+theme: vpba
+region: footer
+weight: -18
+provider: null
+plugin: 'block_content:78ad3e7a-851e-4ebf-abe8-5f027d22b6ee'
+settings:
+  id: 'block_content:78ad3e7a-851e-4ebf-abe8-5f027d22b6ee'
+  label: 'Контактна інформація'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

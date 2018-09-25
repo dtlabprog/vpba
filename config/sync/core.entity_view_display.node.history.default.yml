@@ -1,0 +1,18 @@
+uuid: 8885e86e-1d98-4ea4-aab5-0c61c7e39c57
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.history.body
+    - node.type.history
+  module:
+    - user
+id: node.history.default
+targetEntityType: node
+bundle: history
+mode: default
+content: {  }
+hidden:
+  body: true
+  langcode: true
+  links: true

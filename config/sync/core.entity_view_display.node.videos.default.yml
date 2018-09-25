@@ -1,0 +1,22 @@
+uuid: ad5a6c97-0698-46cb-81ce-0f19f3196fc3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.videos.body
+    - field.field.node.videos.field_reference_on_related_video
+    - field.field.node.videos.field_video
+    - node.type.videos
+  module:
+    - user
+id: node.videos.default
+targetEntityType: node
+bundle: videos
+mode: default
+content: {  }
+hidden:
+  body: true
+  field_reference_on_related_video: true
+  field_video: true
+  langcode: true
+  links: true

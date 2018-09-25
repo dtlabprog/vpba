@@ -1,0 +1,22 @@
+uuid: e66ed466-8b87-4087-96fb-fce4e89f81da
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: YRY68JWkaUiGeZlWMv1nzeIgDm0ZZwXYgpqUpLFzwAY
+id: seven_content
+theme: seven
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Основний вміст сторінки'
+  provider: system
+  label_display: '0'
+visibility: {  }

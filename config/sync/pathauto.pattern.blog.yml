@@ -1,0 +1,22 @@
+uuid: 811a0aad-9406-447b-84ac-87d18d2c86ed
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: blog
+label: Блог
+type: 'canonical_entities:node'
+pattern: 'blog/[node:title]'
+selection_criteria:
+  8e3047de-7659-4fa3-9195-cdd2ed74e6e5:
+    id: node_type
+    bundles:
+      blog: blog
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 8e3047de-7659-4fa3-9195-cdd2ed74e6e5
+selection_logic: and
+weight: -5
+relationships: {  }

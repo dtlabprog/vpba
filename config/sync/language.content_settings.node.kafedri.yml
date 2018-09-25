@@ -1,0 +1,11 @@
+uuid: c2649db6-0e58-4fff-bbd0-8b546a789dfa
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.kafedri
+id: node.kafedri
+target_entity_type_id: node
+target_bundle: kafedri
+default_langcode: site_default
+language_alterable: false

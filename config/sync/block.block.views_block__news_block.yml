@@ -1,0 +1,30 @@
+uuid: 1ea4159e-0ae6-4513-b943-e33d30c30f1c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block__news_block
+theme: vpba
+region: content
+weight: -16
+provider: null
+plugin: 'views_block:news-block_1'
+settings:
+  id: 'views_block:news-block_1'
+  label: Новини
+  provider: views
+  label_display: visible
+  views_label: Новини
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /news
+    negate: false
+    context_mapping: {  }

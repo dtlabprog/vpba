@@ -1,0 +1,21 @@
+uuid: 05d0776a-bf87-4efd-8c83-9ae34e376352
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.administration.field_biography
+    - field.field.node.administration.field_image
+    - node.type.administration
+  module:
+    - user
+id: node.administration.teaser
+targetEntityType: node
+bundle: administration
+mode: teaser
+content: {  }
+hidden:
+  field_biography: true
+  field_image: true
+  langcode: true
+  links: true

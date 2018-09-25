@@ -1,0 +1,22 @@
+uuid: a6a7a02d-b3c5-4cd0-a4bd-850bc5b7959e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.videos
+  module:
+    - text
+id: node.videos.body
+field_name: body
+entity_type: node
+bundle: videos
+label: Текст
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

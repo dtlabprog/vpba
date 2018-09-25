@@ -1,0 +1,22 @@
+uuid: dcba3225-2928-42c9-ad32-42f38391d79f
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.quotes
+  module:
+    - text
+id: node.quotes.body
+field_name: body
+entity_type: node
+bundle: quotes
+label: Текст
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

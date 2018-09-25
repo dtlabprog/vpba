@@ -1,0 +1,30 @@
+uuid: 23f54e4f-c29f-4c12-8e4b-76d7655f6726
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - social_media
+  theme:
+    - vpba
+id: socialsharingblock
+theme: vpba
+region: highlighted
+weight: -10
+provider: null
+plugin: social_sharing_block
+settings:
+  id: social_sharing_block
+  label: 'Social Sharing block'
+  provider: social_media
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      analitika: analitika
+      blog: blog
+      news: news
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,36 @@
+/**
+ * Gallery styling.
+ */
+.page-node-type-gallery {
+  .main-container {
+    .views-field-field-image {
+      .field-content {
+        margin-top: 20px;
+      }
+    }
+  }
+  footer {
+    margin-top: 20px;
+  }
+}
+body.path-gallery {
+  .main-container {
+    max-width: 1100px;
+    min-height: calc(100vh - 285px);
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+  .view-gallery {
+    .view-content {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}
+.view-id-graduates {
+  .view-content {
+      display: flex;
+      justify-content: space-evenly;
+  }
+}

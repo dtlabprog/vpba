@@ -1,0 +1,20 @@
+uuid: 909e551d-0f3c-42b5-8da7-8e3c7d333da5
+langcode: uk
+status: false
+dependencies:
+  theme:
+    - vpba
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: vpba_page_title
+theme: vpba
+region: sidebar_first
+weight: -12
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок сторінки'
+  provider: core
+  label_display: '0'
+visibility: {  }

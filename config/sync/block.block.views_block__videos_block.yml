@@ -1,0 +1,30 @@
+uuid: fd2ff12b-a41f-4bfe-8d9f-f2bd92e8b8b9
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.videos
+  module:
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block__videos_block
+theme: vpba
+region: content
+weight: -17
+provider: null
+plugin: 'views_block:videos-block_1'
+settings:
+  id: 'views_block:videos-block_1'
+  label: Відеогалерея
+  provider: views
+  label_display: visible
+  views_label: Відеогалерея
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /video
+    negate: false
+    context_mapping: {  }

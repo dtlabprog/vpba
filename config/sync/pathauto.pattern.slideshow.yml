@@ -1,0 +1,22 @@
+uuid: 5b828dc7-674f-46d2-acc0-8f81f93ac474
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: slideshow
+label: Слайдшоу
+type: 'canonical_entities:node'
+pattern: 'slideshow/[node:title]'
+selection_criteria:
+  8cbabcb3-666e-4bc4-956a-e9813ec6dc48:
+    id: node_type
+    bundles:
+      slaidsou: slaidsou
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 8cbabcb3-666e-4bc4-956a-e9813ec6dc48
+selection_logic: and
+weight: -5
+relationships: {  }

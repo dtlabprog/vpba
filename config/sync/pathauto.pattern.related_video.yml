@@ -1,0 +1,22 @@
+uuid: 93d889b7-0d20-4d6c-929a-2de1e849732e
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: related_video
+label: 'Пов''язані відеоролики'
+type: 'canonical_entities:node'
+pattern: 'related-video/[node:title]'
+selection_criteria:
+  4ef03b70-7fad-43af-9b40-7e689c0922f1:
+    id: node_type
+    bundles:
+      related_videos: related_videos
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 4ef03b70-7fad-43af-9b40-7e689c0922f1
+selection_logic: and
+weight: -5
+relationships: {  }

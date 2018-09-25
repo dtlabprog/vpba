@@ -1,0 +1,22 @@
+uuid: 33050fb4-edf5-4b70-ae7d-bcb370d09b74
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.entrant
+  module:
+    - text
+id: node.entrant.body
+field_name: body
+entity_type: node
+bundle: entrant
+label: Текст
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

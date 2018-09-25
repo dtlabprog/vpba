@@ -1,0 +1,20 @@
+// Default variables.
+@import "default-variables";
+
+// Subtheme's variables and settings
+@import 'base/utilities/variables';
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+// Subtheme's pages settings
+@import 'pages/front';
+@import 'pages/nodes';
+@import 'pages/gallery';
+@import 'pages/contacts';
+
+// Subtheme's variables and settings
+@import 'fonts/fonts';

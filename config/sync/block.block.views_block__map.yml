@@ -1,0 +1,39 @@
+uuid: 17e2a81a-6f57-48a4-bb3e-5e564a62f00b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.nodes
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block__map
+theme: vpba
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:nodes-block_5'
+settings:
+  id: 'views_block:nodes-block_5'
+  label: Контакти
+  provider: views
+  label_display: visible
+  views_label: Контакти
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /node/63
+    negate: false
+    context_mapping: {  }

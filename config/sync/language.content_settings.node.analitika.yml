@@ -1,0 +1,11 @@
+uuid: 2190110a-2bf3-4da5-9765-cc7c45d11015
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.analitika
+id: node.analitika
+target_entity_type_id: node
+target_bundle: analitika
+default_langcode: site_default
+language_alterable: false

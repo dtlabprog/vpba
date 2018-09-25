@@ -1,0 +1,25 @@
+uuid: efd14b8a-9de9-461c-99fd-8822ebb7e198
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b0877e72-f7df-483b-b78a-b7742ac047e2'
+  module:
+    - block_content
+  theme:
+    - vpba
+id: upckp
+theme: vpba
+region: navigation
+weight: -26
+provider: null
+plugin: 'block_content:b0877e72-f7df-483b-b78a-b7742ac047e2'
+settings:
+  id: 'block_content:b0877e72-f7df-483b-b78a-b7742ac047e2'
+  label: 'УПЦ КП'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

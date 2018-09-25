@@ -1,0 +1,29 @@
+uuid: 2cf2cb1c-5b75-478c-90d3-7a0747c8365f
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.entrant.body
+    - node.type.entrant
+  module:
+    - text
+    - user
+id: node.entrant.teaser
+targetEntityType: node
+bundle: entrant
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

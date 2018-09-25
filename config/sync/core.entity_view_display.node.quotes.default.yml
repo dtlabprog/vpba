@@ -1,0 +1,27 @@
+uuid: 373e893b-70e6-4186-97d9-8a82b3fcbea9
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.quotes.body
+    - node.type.quotes
+  module:
+    - text
+    - user
+id: node.quotes.default
+targetEntityType: node
+bundle: quotes
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,30 @@
+uuid: e2136006-d415-41cd-b665-b4c635fc69cb
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block__news_news_view_block
+theme: vpba
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:news-news_view_block'
+settings:
+  id: 'views_block:news-news_view_block'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

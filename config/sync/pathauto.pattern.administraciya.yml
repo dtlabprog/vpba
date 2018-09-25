@@ -1,0 +1,22 @@
+uuid: 3c1e65f4-6ceb-43aa-95db-6abe038f0b53
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: administraciya
+label: Адміністрація
+type: 'canonical_entities:node'
+pattern: 'administration/[node:title]'
+selection_criteria:
+  5d404519-b347-4db1-8119-3d07331b637e:
+    id: node_type
+    bundles:
+      administration: administration
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 5d404519-b347-4db1-8119-3d07331b637e
+selection_logic: and
+weight: -5
+relationships: {  }

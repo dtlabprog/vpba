@@ -1,0 +1,38 @@
+uuid: c8bfe950-ec58-4584-aebf-cd5a9cfde274
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.graduates.body
+    - field.field.node.graduates.field_image
+    - node.type.graduates
+  module:
+    - image
+    - text
+    - user
+id: node.graduates.default
+targetEntityType: node
+bundle: graduates
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,22 @@
+uuid: 350fa65a-02a8-4044-bd60-2783ec3c181e
+langcode: uk
+status: false
+dependencies:
+  theme:
+    - vpba
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: vpba_local_tasks
+theme: vpba
+region: sidebar_first
+weight: -13
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Вкладки
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

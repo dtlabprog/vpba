@@ -1,0 +1,30 @@
+uuid: 80e43099-bdd3-4f70-a28d-c2545b03da5e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.gallery
+  module:
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block__gallery_block
+theme: vpba
+region: content
+weight: -18
+provider: null
+plugin: 'views_block:gallery-block_1'
+settings:
+  id: 'views_block:gallery-block_1'
+  label: Альбоми
+  provider: views
+  label_display: visible
+  views_label: Альбоми
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /gallery
+    negate: false
+    context_mapping: {  }

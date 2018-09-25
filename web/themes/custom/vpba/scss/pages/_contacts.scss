@@ -1,0 +1,33 @@
+/**
+ * Contact page styling.
+ */
+#block-views-block-map {
+  padding-bottom: 25px;
+  .views-row {
+    display: flex;
+    justify-content: space-between;
+    @media #{$mobile} {
+      flex-wrap: wrap;
+    }
+    .contacts {
+      line-height: 1;
+      width: 35vw;
+      @media #{$mobile} {
+        width: 100%;
+      }
+    }
+    .views-field-field-geo {
+      align-self: center;
+      .gm-style-cc {
+        display: none;
+      }
+      @media #{$mobile} {
+        margin-top: 20px;
+        .styled_map {
+          width: 80vw !important;
+          height: 40vh !important;
+        }
+      }
+    }
+  }
+}

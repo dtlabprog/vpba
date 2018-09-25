@@ -1,0 +1,10 @@
+uuid: 343c9992-4fed-4048-84fe-189c6e520b29
+langcode: en
+status: true
+dependencies:
+  module:
+    - avatars
+id: avatars_preview.token
+label: Token
+targetEntityType: avatars_preview
+cache: true

@@ -1,0 +1,27 @@
+uuid: fa9532cf-7451-45de-ad93-ef4202068253
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.slaidsou.field_image
+    - node.type.slaidsou
+  module:
+    - image
+    - user
+id: node.slaidsou.default
+targetEntityType: node
+bundle: slaidsou
+mode: default
+content:
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true
+  links: true

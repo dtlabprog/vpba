@@ -1,0 +1,22 @@
+uuid: 38deaefc-0db4-43af-934e-2628736eb85c
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: departments
+label: Кафедри
+type: 'canonical_entities:node'
+pattern: 'departments/[node:title]'
+selection_criteria:
+  cb27a4b8-0a91-486f-aef9-2d4109b2ac43:
+    id: node_type
+    bundles:
+      kafedri: kafedri
+    negate: false
+    context_mapping:
+      node: node
+    uuid: cb27a4b8-0a91-486f-aef9-2d4109b2ac43
+selection_logic: and
+weight: -5
+relationships: {  }

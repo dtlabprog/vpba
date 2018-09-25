@@ -1,0 +1,39 @@
+uuid: fe2bb9f1-b2a4-49a0-9c8e-47e79a602cdd
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.nodes
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block_photo_gallery
+theme: vpba
+region: content
+weight: -19
+provider: null
+plugin: 'views_block:nodes-block_4'
+settings:
+  id: 'views_block:nodes-block_4'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      gallery: gallery
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '/node/*'
+    negate: false
+    context_mapping: {  }

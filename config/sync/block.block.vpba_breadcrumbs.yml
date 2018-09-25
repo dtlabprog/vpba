@@ -1,0 +1,22 @@
+uuid: c8083c9a-9503-43e9-9ca8-9aebd24f4808
+langcode: uk
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - vpba
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: vpba_breadcrumbs
+theme: vpba
+region: navigation
+weight: -18
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Рядки навіґації'
+  provider: system
+  label_display: '0'
+visibility: {  }

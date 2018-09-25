@@ -1,0 +1,22 @@
+uuid: 48f81b40-e2e9-42de-aca0-675478923597
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: page
+label: 'Проста сторінка'
+type: 'canonical_entities:node'
+pattern: 'page/[node:title]'
+selection_criteria:
+  d52d06e8-8bab-47b7-aa75-aeac8dcde642:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d52d06e8-8bab-47b7-aa75-aeac8dcde642
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,15 @@
+uuid: 400f2512-d8fc-4793-a757-4751bab0ca60
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: RQ75tMARZvKiI0hge9SKZpZFi-dOzZyq0nlouHHBeLM
+id: audio
+label: Звук
+description: 'Локально розміщуваний аудіофайл.'
+source: audio_file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_audio_file
+field_map: {  }

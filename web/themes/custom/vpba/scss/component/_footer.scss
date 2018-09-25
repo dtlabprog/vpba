@@ -1,0 +1,151 @@
+/**
+ * Footer styling.
+ */
+footer.container {
+  width: 100%;
+  .region-footer {
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    font: 1.6rem Arno Pro Caption;
+    color: $grey_footer;
+    line-height: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    @media #{$tablet} {
+      width: 90%;
+    }
+    section {
+      width: 17.3%;
+      margin-bottom: 20px;
+    }
+    section:first-child {
+      line-height: 0.6;
+      width: 25%;
+    }
+    #block-social-sharing-block {
+      width: 23%;
+    }
+    a {
+      color: $grey_footer;
+      text-decoration: none;
+      &:hover {
+        font-weight: 600;
+      }
+    }
+    .expanded-item-menu {
+      font-weight: 600;
+    }
+    .dropdown-item-menu {
+      padding-left: 0;
+      li {
+        list-style-type: none;
+      }
+    }
+    #block-social-sharing-block {
+      text-align: justify;
+      .social-media-sharing {
+        ul {
+          display: flex;
+          justify-content: space-around;
+          padding-left: 0;
+          li {
+            list-style-type: none;
+          }
+          img {
+            height: 30px;
+          }
+        }
+      }
+    }
+    #block-copyright {
+      width: 70%;
+      flex: 1 0 0 100%;
+      margin-bottom: 0;
+      border-top: 1px solid $gainsboro;
+      p {
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+    @media only screen and (min-width: $screen-xs) and (max-width: $screen-sm-min) {
+      section {
+        width: 33%;
+        text-align: center;
+      }
+      #block-academy-menu-item {
+        order: 1;
+      }
+      #block-entrant-item-menu {
+        order: 2;
+      }
+      #block-multimedia-item-menu {
+        order: 3;
+      }
+      #block-contacts-info,
+      #block-social-sharing-block {
+        order: 4;
+        border-top: 1px solid $gainsboro;
+        width: 50%;
+        .field--name-body {
+          margin: 20px 0 20px 0;
+        }
+      }
+      #block-social-sharing-block {
+        order: 5;
+        .field--name-body {
+          width: 70%;
+        }
+        .share-buttons {
+          text-align: center;
+        }
+      }
+      #block-copyright {
+        order: 6;
+        width: 100%;
+      }
+    }
+    @media #{$xm-mobile} {
+      #block-academy-menu-item,
+      #block-entrant-item-menu,
+      #block-multimedia-item-menu {
+        display: none;
+      }
+      #block-contacts-info,
+      #block-social-sharing-block {
+        width: 100%;
+        border: none;
+        margin-bottom: 20px;
+      }
+      #block-contacts-info {
+        .field--name-body {
+          text-align: center;
+        }
+      }
+      #block-social-sharing-block {
+        border-top: 1px solid $gainsboro;
+        .field--name-body {
+          width: 75%;
+          margin: 0 auto;
+          padding-top: 20px;
+        }
+        .share-buttons {
+          text-align: center;
+        }
+      }
+    }
+  }
+  @media #{$xm-mobile} {
+    footer.container {
+      padding: 0 !important;
+    }
+  }
+}
+
+body:not(.path-frontpage) {
+  footer.container {
+    border-top: 1px solid $gainsboro;
+  }
+}

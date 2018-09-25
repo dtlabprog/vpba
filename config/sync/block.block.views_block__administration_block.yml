@@ -1,0 +1,38 @@
+uuid: 6810671a-1511-4f31-a3a5-56d5e6c86f3e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block__administration_block
+theme: vpba
+region: content
+weight: -15
+provider: null
+plugin: 'views_block:news-block_2'
+settings:
+  id: 'views_block:news-block_2'
+  label: Адміністрація
+  provider: views
+  label_display: visible
+  views_label: Адміністрація
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/authorities\r\n"
+    negate: false
+    context_mapping: {  }
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

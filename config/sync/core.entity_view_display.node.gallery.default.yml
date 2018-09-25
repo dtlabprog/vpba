@@ -1,0 +1,18 @@
+uuid: 4417a5a7-e5f3-4959-80e4-70c66b3df396
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery.field_image
+    - node.type.gallery
+  module:
+    - user
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content: {  }
+hidden:
+  field_image: true
+  langcode: true
+  links: true

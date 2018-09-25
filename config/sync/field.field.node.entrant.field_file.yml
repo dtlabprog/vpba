@@ -1,0 +1,27 @@
+uuid: 2fee2a90-41d9-4fe5-9ab1-699b9cd42a0d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file
+    - node.type.entrant
+  module:
+    - file
+id: node.entrant.field_file
+field_name: field_file
+entity_type: node
+bundle: entrant
+label: Файл
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'documents/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

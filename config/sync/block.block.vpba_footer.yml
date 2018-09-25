@@ -1,0 +1,26 @@
+uuid: 911940ac-14f3-4960-874a-478d9d8f5ce1
+langcode: uk
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - vpba
+_core:
+  default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
+id: vpba_footer
+theme: vpba
+region: navigation
+weight: -21
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Меню нижнього колонтитулу'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

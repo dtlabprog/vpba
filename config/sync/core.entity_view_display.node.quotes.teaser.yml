@@ -1,0 +1,29 @@
+uuid: 4046e212-6dd9-42d3-bdf5-18156460349e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.quotes.body
+    - node.type.quotes
+  module:
+    - text
+    - user
+id: node.quotes.teaser
+targetEntityType: node
+bundle: quotes
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

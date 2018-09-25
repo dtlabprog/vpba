@@ -1,0 +1,22 @@
+uuid: 75bfdc56-7385-4568-90b4-66cbcda562bf
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: gallery
+label: Галерея
+type: 'canonical_entities:node'
+pattern: 'gallery/[node:title]'
+selection_criteria:
+  54390b3a-d305-418c-9ab8-a38cef9fda3a:
+    id: node_type
+    bundles:
+      gallery: gallery
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 54390b3a-d305-418c-9ab8-a38cef9fda3a
+selection_logic: and
+weight: -5
+relationships: {  }

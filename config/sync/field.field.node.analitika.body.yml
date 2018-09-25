@@ -1,0 +1,22 @@
+uuid: 701d1f85-b736-45fb-bc16-f04eae2945d4
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.analitika
+  module:
+    - text
+id: node.analitika.body
+field_name: body
+entity_type: node
+bundle: analitika
+label: Текст
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

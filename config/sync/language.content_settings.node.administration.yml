@@ -1,0 +1,11 @@
+uuid: 65e33eea-d294-4835-863f-a1955c8047b8
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.administration
+id: node.administration
+target_entity_type_id: node
+target_bundle: administration
+default_langcode: site_default
+language_alterable: false

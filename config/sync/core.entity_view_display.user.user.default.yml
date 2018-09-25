@@ -1,0 +1,25 @@
+uuid: 209b500d-a1a0-4453-9945-40711bb8e7ec
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.user.user.avatars_avatar_generator
+    - field.field.user.user.avatars_user_picture
+    - field.field.user.user.field_biography
+    - field.field.user.user.user_picture
+  module:
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content: {  }
+hidden:
+  avatars_avatar_generator: true
+  avatars_user_picture: true
+  field_biography: true
+  langcode: true
+  member_for: true
+  user_picture: true

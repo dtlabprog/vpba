@@ -1,0 +1,32 @@
+uuid: 40229c7b-c038-4390-9894-054a736f9b7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.most_popular_content
+  module:
+    - node
+    - views
+  theme:
+    - vpba
+id: views_block__most_popular_content_block_1
+theme: vpba
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:most_popular_content-block_1'
+settings:
+  id: 'views_block:most_popular_content-block_1'
+  label: 'Популярні новини'
+  provider: views
+  label_display: visible
+  views_label: 'Популярні новини'
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      news: news
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

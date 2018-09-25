@@ -1,0 +1,25 @@
+uuid: a7be456c-d9f7-40a3-9fa9-ea3368e34f51
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c0a3692d-9996-4c96-9b74-8689ae0758be'
+  module:
+    - block_content
+  theme:
+    - vpba
+id: academy_menu_item
+theme: vpba
+region: footer
+weight: -17
+provider: null
+plugin: 'block_content:c0a3692d-9996-4c96-9b74-8689ae0758be'
+settings:
+  id: 'block_content:c0a3692d-9996-4c96-9b74-8689ae0758be'
+  label: 'Академія (пункт меню)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

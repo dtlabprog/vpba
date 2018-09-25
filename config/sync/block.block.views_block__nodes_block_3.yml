@@ -1,0 +1,39 @@
+uuid: ec1f0b75-02af-483c-8ae0-e03a13f5c983
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.nodes
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block__nodes_block_3
+theme: vpba
+region: content
+weight: -20
+provider: null
+plugin: 'views_block:nodes-block_3'
+settings:
+  id: 'views_block:nodes-block_3'
+  label: Абітурієнту
+  provider: views
+  label_display: '0'
+  views_label: Абітурієнту
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      entrant: entrant
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '/node/*'
+    negate: false
+    context_mapping: {  }

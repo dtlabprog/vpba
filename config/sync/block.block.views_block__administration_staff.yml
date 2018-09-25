@@ -1,0 +1,39 @@
+uuid: c97d3cb1-1cfe-48c3-b805-c5a62a573a29
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block__administration_staff
+theme: vpba
+region: content
+weight: -14
+provider: null
+plugin: 'views_block:news-block_3'
+settings:
+  id: 'views_block:news-block_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      administration: administration
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '/node/*'
+    negate: false
+    context_mapping: {  }

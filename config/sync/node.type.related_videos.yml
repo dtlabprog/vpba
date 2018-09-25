@@ -1,0 +1,18 @@
+uuid: 9a23fac9-228d-42a2-b6e3-8e7fecd16ca1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Пов''язані відеоролики'
+type: related_videos
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

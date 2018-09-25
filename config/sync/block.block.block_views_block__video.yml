@@ -1,0 +1,30 @@
+uuid: df5dfbc4-112b-4205-ac3f-48a6b8567efb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.analytics
+  module:
+    - system
+    - views
+  theme:
+    - vpba
+id: block_views_block__video
+theme: vpba
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:analytics-block_3'
+settings:
+  id: 'views_block:analytics-block_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

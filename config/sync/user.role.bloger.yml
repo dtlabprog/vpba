@@ -1,0 +1,12 @@
+uuid: 4e38d98b-fcc8-4a7b-8818-b8f341ecccc2
+langcode: en
+status: true
+dependencies: {  }
+id: bloger
+label: Bloger
+weight: 3
+is_admin: null
+permissions:
+  - 'create blog content'
+  - 'delete own blog content'
+  - 'edit own blog content'

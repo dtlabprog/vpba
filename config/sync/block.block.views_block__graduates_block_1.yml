@@ -1,0 +1,30 @@
+uuid: f1d68d2d-e484-42f8-bac3-7fe37aff6352
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.graduates
+  module:
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block__graduates_block_1
+theme: vpba
+region: content
+weight: -25
+provider: null
+plugin: 'views_block:graduates-block_1'
+settings:
+  id: 'views_block:graduates-block_1'
+  label: 'Наші випускники'
+  provider: views
+  label_display: visible
+  views_label: 'Наші випускники'
+  items_per_page: '40'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/gallery\r\n"
+    negate: false
+    context_mapping: {  }

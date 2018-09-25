@@ -1,0 +1,42 @@
+//
+// Variables and settings
+//
+$breakpoint-450: 450px;
+$breakpoint-1025: 1025px;
+$breakpoint-1300: 1300px;
+$breakpoint-330: 330px;
+//
+// Colors
+//
+
+// Basic colors
+$lightslategray: rgba(29, 29, 27, 0.25);
+$darkred: #9e0f07;
+$red: #800000;
+$white: #ffffff;
+$white_transparent: rgba(255, 255, 255, 0.05);
+$white_transparent_main_img: rgba(255, 255, 255, 0.10);
+$black: #000;
+$grey: rgb(218,218,218);
+$grey_line: rgb(226, 226, 226);
+$darkgrey: #858585;
+$grey_transparent_analitic: rgba(133, 133, 133,0.25);
+$grey_img_alt: rgb(102, 102, 102);
+$black_most_popular_news: rgb(18, 18, 18);
+$gainsboro: #dadada;
+$backgraund_grey: #ededed;
+$grey_footer: #999;
+
+/**
+ * Media queries breakpoints.
+ */
+$xs-mobile: 320px;
+$grid-mobile: 641px;
+$xs-large: 1024px;
+
+/**
+ * Media queries.
+ */
+$xs-mobile-media: "screen and (max-width: #{$xs-mobile})";
+$xs-desktop-media: "screen and (min-width: #{$xs-large})";
+$grid-mobile-media: "screen and (max-width: #{$grid-mobile})";

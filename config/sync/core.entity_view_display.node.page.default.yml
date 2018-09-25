@@ -1,0 +1,20 @@
+uuid: 683f9e5c-e6a1-48b1-b562-9a4480d2fbcd
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_geo
+    - node.type.page
+  module:
+    - user
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content: {  }
+hidden:
+  body: true
+  field_geo: true
+  langcode: true
+  links: true

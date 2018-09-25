@@ -1,0 +1,22 @@
+uuid: bdfe5dbd-3201-4661-98b6-1a2bf40a0c1e
+langcode: uk
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - vpba
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: vpba_messages
+theme: vpba
+region: highlighted
+weight: -11
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Повідомлення про стан'
+  provider: system
+  label_display: '0'
+visibility: {  }

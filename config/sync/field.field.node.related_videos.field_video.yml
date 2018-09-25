@@ -1,0 +1,25 @@
+uuid: 5d0e6127-9b91-4996-b76b-19b528418214
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video
+    - node.type.related_videos
+  module:
+    - video_embed_field
+id: node.related_videos.field_video
+field_name: field_video
+entity_type: node
+bundle: related_videos
+label: 'Пов''язані відеоролики'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube_playlist: youtube_playlist
+    youtube: youtube
+    vimeo: vimeo
+field_type: video_embed_field

@@ -1,0 +1,22 @@
+uuid: 199a9e09-2496-41bb-bbd6-0d4b20f06938
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: analytics
+label: Аналітика
+type: 'canonical_entities:node'
+pattern: 'analytics/[node:title]'
+selection_criteria:
+  6b351e7f-ac66-41d9-bda4-f8a0ac1c43f8:
+    id: node_type
+    bundles:
+      analitika: analitika
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 6b351e7f-ac66-41d9-bda4-f8a0ac1c43f8
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,22 @@
+uuid: c7ac57b7-5fcc-4498-9bd0-c4b2b3b36cf4
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.analitika.body
+    - field.field.node.analitika.field_image
+    - field.field.node.analitika.field_images_for_slider
+    - node.type.analitika
+  module:
+    - user
+id: node.analitika.default
+targetEntityType: node
+bundle: analitika
+mode: default
+content: {  }
+hidden:
+  body: true
+  field_image: true
+  field_images_for_slider: true
+  langcode: true
+  links: true

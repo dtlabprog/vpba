@@ -1,0 +1,32 @@
+uuid: e528e28f-6d75-48eb-a9b0-84769a8352a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.most_popular_content
+  module:
+    - node
+    - views
+  theme:
+    - vpba
+id: views_block__most_popular_content_block_3
+theme: vpba
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:most_popular_content-block_3'
+settings:
+  id: 'views_block:most_popular_content-block_3'
+  label: 'Найпопулярніші блоги'
+  provider: views
+  label_display: visible
+  views_label: 'Найпопулярніші блоги'
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      blog: blog
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

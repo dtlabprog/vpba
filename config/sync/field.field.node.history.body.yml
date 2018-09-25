@@ -1,0 +1,22 @@
+uuid: 153150f2-b2df-494d-8bb8-fe337949163c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.history
+  module:
+    - text
+id: node.history.body
+field_name: body
+entity_type: node
+bundle: history
+label: Текст
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

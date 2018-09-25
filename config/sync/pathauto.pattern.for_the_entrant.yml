@@ -1,0 +1,22 @@
+uuid: 5e4c7c18-274b-4281-baa7-74989ed31511
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: for_the_entrant
+label: Абітурієнту
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  4900e4b3-add3-41d7-8766-b0b3387100d9:
+    id: node_type
+    bundles:
+      entrant: entrant
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 4900e4b3-add3-41d7-8766-b0b3387100d9
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,25 @@
+uuid: 0d134d0e-775f-4f8e-a915-bbc9a32cc8dc
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b156c986-cc5f-4055-8e98-a0ea5981453b'
+  module:
+    - block_content
+  theme:
+    - vpba
+id: copyright
+theme: vpba
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:b156c986-cc5f-4055-8e98-a0ea5981453b'
+settings:
+  id: 'block_content:b156c986-cc5f-4055-8e98-a0ea5981453b'
+  label: Копірайт
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

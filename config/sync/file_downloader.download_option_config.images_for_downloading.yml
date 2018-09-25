@@ -1,0 +1,12 @@
+uuid: 1cf96839-bec9-4159-a447-157fc303ce52
+langcode: uk
+status: true
+dependencies: {  }
+id: images_for_downloading
+label: 'Images for downloading'
+plugin_id: image_style
+extensions: ''
+settings:
+  id: image_style
+  extensions: ''
+  image_style: juicebox_large

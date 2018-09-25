@@ -1,0 +1,28 @@
+uuid: 2f320a9a-5e45-46c9-a381-f27a1d027ee4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reference_on_related_video
+    - node.type.related_videos
+    - node.type.videos
+id: node.videos.field_reference_on_related_video
+field_name: field_reference_on_related_video
+entity_type: node
+bundle: videos
+label: 'Посилання на пов''язане відео'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      related_videos: related_videos
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

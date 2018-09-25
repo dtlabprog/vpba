@@ -1,0 +1,30 @@
+uuid: 5046f1be-1f97-4224-87f0-b3ae607b68da
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.quotes
+  module:
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block__quotes_block_1
+theme: vpba
+region: content
+weight: -8
+provider: null
+plugin: 'views_block:quotes-block_1'
+settings:
+  id: 'views_block:quotes-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

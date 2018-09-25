@@ -1,0 +1,38 @@
+uuid: 561a5d79-8077-442d-8745-a0a03b986c91
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - ctools
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block_history
+theme: vpba
+region: content
+weight: -11
+provider: null
+plugin: 'views_block:news-block_history'
+settings:
+  id: 'views_block:news-block_history'
+  label: Історія
+  provider: views
+  label_display: visible
+  views_label: Історія
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /history
+    negate: false
+    context_mapping: {  }

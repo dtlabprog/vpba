@@ -1,0 +1,23 @@
+uuid: cfd05a84-054f-4abe-989a-514ff2d89434
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vpba
+id: sitebranding
+theme: vpba
+region: navigation
+weight: -25
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

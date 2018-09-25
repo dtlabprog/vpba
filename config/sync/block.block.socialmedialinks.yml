@@ -1,0 +1,31 @@
+uuid: a19aeb90-0bfa-46da-b741-7df0178dc06c
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:08e2058b-8ce2-445a-a40c-29d7193dbbe6'
+  module:
+    - block_content
+    - system
+  theme:
+    - vpba
+id: socialmedialinks
+theme: vpba
+region: content
+weight: -23
+provider: null
+plugin: 'block_content:08e2058b-8ce2-445a-a40c-29d7193dbbe6'
+settings:
+  id: 'block_content:08e2058b-8ce2-445a-a40c-29d7193dbbe6'
+  label: 'Social media links'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

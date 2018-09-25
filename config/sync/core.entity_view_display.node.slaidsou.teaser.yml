@@ -1,0 +1,20 @@
+uuid: fb2f913b-42ca-4612-85a6-aa206431f84c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.slaidsou
+  module:
+    - user
+id: node.slaidsou.teaser
+targetEntityType: node
+bundle: slaidsou
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_image: true
+  langcode: true

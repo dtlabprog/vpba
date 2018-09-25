@@ -1,0 +1,11 @@
+uuid: feba3006-6b39-4408-990d-3107da72a484
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.related_videos
+id: node.related_videos
+target_entity_type_id: node
+target_bundle: related_videos
+default_langcode: site_default
+language_alterable: false

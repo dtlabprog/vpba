@@ -1,0 +1,30 @@
+uuid: a8babe3d-4e8a-49dd-ba7b-520a4ffe699e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.analitika.body
+    - node.type.analitika
+  module:
+    - text
+    - user
+id: node.analitika.teaser
+targetEntityType: node
+bundle: analitika
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_image: true
+  langcode: true

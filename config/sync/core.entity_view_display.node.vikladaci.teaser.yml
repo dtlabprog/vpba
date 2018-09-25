@@ -1,0 +1,29 @@
+uuid: d9f07be7-4e3b-4554-a816-ae4a15cd89c8
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.vikladaci.body
+    - node.type.vikladaci
+  module:
+    - text
+    - user
+id: node.vikladaci.teaser
+targetEntityType: node
+bundle: vikladaci
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

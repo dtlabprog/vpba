@@ -1,0 +1,12 @@
+uuid: 6a0d6547-95f4-4daf-8449-8932dc2895cc
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LFWr8uP6ISsZ0oiyc7LcC1AYEbUw-X9w4Yu6x66ak1g
+id: user_upload
+label: 'User upload'
+weight: -9
+plugin: user
+provider: avatars
+settings: {  }

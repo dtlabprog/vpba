@@ -1,0 +1,38 @@
+uuid: 8cddd069-7f5c-4c69-936f-95acf0136789
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block__departments
+theme: vpba
+region: content
+weight: -13
+provider: null
+plugin: 'views_block:news-block_4'
+settings:
+  id: 'views_block:news-block_4'
+  label: Кафедри
+  provider: views
+  label_display: visible
+  views_label: Кафедри
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /departments
+    negate: false
+    context_mapping: {  }
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

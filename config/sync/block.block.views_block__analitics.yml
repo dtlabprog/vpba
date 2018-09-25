@@ -1,0 +1,46 @@
+uuid: f3232a44-8548-4816-8d21-a6b7df2c97db
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - ctools
+    - node
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block__analitics
+theme: vpba
+region: content
+weight: -9
+provider: null
+plugin: 'views_block:news-block_6'
+settings:
+  id: 'views_block:news-block_6'
+  label: Аналітика
+  provider: views
+  label_display: visible
+  views_label: Аналітика
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /analitics
+    negate: false
+    context_mapping: {  }
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

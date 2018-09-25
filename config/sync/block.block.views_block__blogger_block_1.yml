@@ -1,0 +1,25 @@
+uuid: fc4be198-b441-4231-a913-7904a281dd44
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blogger
+  module:
+    - views
+  theme:
+    - vpba
+id: views_block__blogger_block_1
+theme: vpba
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:blogger-block_1'
+settings:
+  id: 'views_block:blogger-block_1'
+  label: 'Останні записи'
+  provider: views
+  label_display: '0'
+  views_label: 'Останні записи'
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

@@ -1,0 +1,56 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function vpba_page_attachments_alter(&$attachments) {
+	if (\Drupal::service('path.matcher')->isFrontPage()) {
+		$attachments['#attached']['library'][] = 'vpba/front';
+	}
+}
+
+/**
+ * Implements template_preprocess_html().
+ */
+function vpba_preprocess_html(&$variables) {
+	if (\Drupal::service('path.matcher')->isFrontPage()) {
+		$variables['attributes']['class'][] = 'front-page';
+	}
+}
+
+function vpba_preprocess_search_result(&$variables) {
+	$total = null;
+	// get the total number of results from the $GLOBALS
+	if(isset($GLOBALS['pager_total_items'])){
+		$total = $GLOBALS['pager_total_items'][0];
+	}
+	$variables['count_items'] = $total;
+	$variables['counter'] = 2;
+}
+
+function vpba_preprocess_block(&$variables) {
+  switch ($variables['plugin_id']) {
+    case 'search_form_block':
+  }
+	if ($variables['plugin_id'] == 'search_form_block') {
+		$total = null;
+		// Get the total number of results from the $GLOBALS
+		if(isset($GLOBALS['pager_total_items'])){
+			$total = $GLOBALS['pager_total_items'][0];
+		}
+		$variables['count_items'] = $total;
+	}
+}
+
+/**
+ * Implements template_preprocess_html().
+ */
+function vpba_preprocess(&$variables, $hook) {
+  $variables['logo'] = base_path();
+}

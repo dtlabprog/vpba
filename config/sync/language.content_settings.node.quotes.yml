@@ -1,0 +1,11 @@
+uuid: d26546c2-5f25-4b4f-a02c-3dd6477f3d95
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.quotes
+id: node.quotes
+target_entity_type_id: node
+target_bundle: quotes
+default_langcode: site_default
+language_alterable: false

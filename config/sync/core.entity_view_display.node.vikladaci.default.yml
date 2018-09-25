@@ -1,0 +1,20 @@
+uuid: ef8fd844-88b0-41c2-b5ba-78bb4c26ea5d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.vikladaci.body
+    - field.field.node.vikladaci.field_image
+    - node.type.vikladaci
+  module:
+    - user
+id: node.vikladaci.default
+targetEntityType: node
+bundle: vikladaci
+mode: default
+content: {  }
+hidden:
+  body: true
+  field_image: true
+  langcode: true
+  links: true

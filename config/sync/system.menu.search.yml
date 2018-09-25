@@ -1,0 +1,8 @@
+uuid: bb285135-3f7b-40f0-aba8-7fe5b7c0b033
+langcode: uk
+status: true
+dependencies: {  }
+id: search
+label: Search
+description: ''
+locked: false

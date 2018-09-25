@@ -1,0 +1,22 @@
+uuid: 0f17fe46-1e2b-47ef-9568-89c45858ed59
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.graduates
+  module:
+    - text
+id: node.graduates.body
+field_name: body
+entity_type: node
+bundle: graduates
+label: Текст
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

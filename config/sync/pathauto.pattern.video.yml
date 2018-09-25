@@ -1,0 +1,22 @@
+uuid: a524d3f4-04e1-4af7-a305-127cabc6611d
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: video
+label: Відео
+type: 'canonical_entities:node'
+pattern: 'video/[node:title]'
+selection_criteria:
+  c3ba5b52-90e4-44ff-932a-7f8fe2846020:
+    id: node_type
+    bundles:
+      videos: videos
+    negate: false
+    context_mapping:
+      node: node
+    uuid: c3ba5b52-90e4-44ff-932a-7f8fe2846020
+selection_logic: and
+weight: -5
+relationships: {  }

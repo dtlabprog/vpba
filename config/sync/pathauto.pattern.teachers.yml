@@ -1,0 +1,22 @@
+uuid: 4afbf3ad-6a40-44cc-a6d1-211c3c35d335
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: teachers
+label: Викладачі
+type: 'canonical_entities:node'
+pattern: 'teachers/[node:title]'
+selection_criteria:
+  87d2a1d7-ff1b-49ff-9cca-7b5b325a9ba7:
+    id: node_type
+    bundles:
+      vikladaci: vikladaci
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 87d2a1d7-ff1b-49ff-9cca-7b5b325a9ba7
+selection_logic: and
+weight: -5
+relationships: {  }

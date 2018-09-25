@@ -1,0 +1,29 @@
+uuid: 110265cb-ccb0-4be8-8300-2948cffe84e4
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.search
+  module:
+    - system
+  theme:
+    - vpba
+id: search_2
+theme: vpba
+region: navigation
+weight: -24
+provider: null
+plugin: 'system_menu_block:search'
+settings:
+  id: 'system_menu_block:search'
+  label: Search
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

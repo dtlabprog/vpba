@@ -1,0 +1,22 @@
+uuid: d5ecc64f-92c5-41fb-a766-b085ea3a4993
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: graduates
+label: Випускники
+type: 'canonical_entities:node'
+pattern: 'graduates/[node:title]'
+selection_criteria:
+  6400c13b-b87a-4146-88b3-0f4cbda39811:
+    id: node_type
+    bundles:
+      graduates: graduates
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 6400c13b-b87a-4146-88b3-0f4cbda39811
+selection_logic: and
+weight: -5
+relationships: {  }

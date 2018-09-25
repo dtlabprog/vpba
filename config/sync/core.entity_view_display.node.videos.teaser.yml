@@ -1,0 +1,31 @@
+uuid: e23c8f2c-41e9-4b24-bd09-72587df10018
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.videos.body
+    - node.type.videos
+  module:
+    - text
+    - user
+id: node.videos.teaser
+targetEntityType: node
+bundle: videos
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_reference_on_related_video: true
+  field_video: true
+  langcode: true

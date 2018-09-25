@@ -1,0 +1,11 @@
+uuid: 18c95483-2e14-4e23-bb51-4aa67ba2f491
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.slaidsou
+id: node.slaidsou
+target_entity_type_id: node
+target_bundle: slaidsou
+default_langcode: site_default
+language_alterable: false

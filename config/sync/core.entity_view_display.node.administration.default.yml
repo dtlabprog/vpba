@@ -1,0 +1,20 @@
+uuid: bdd5ea56-92c5-48c8-b922-0ea112cd0a1e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.administration.field_biography
+    - field.field.node.administration.field_image
+    - node.type.administration
+  module:
+    - user
+id: node.administration.default
+targetEntityType: node
+bundle: administration
+mode: default
+content: {  }
+hidden:
+  field_biography: true
+  field_image: true
+  langcode: true
+  links: true

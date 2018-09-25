@@ -1,0 +1,10 @@
+uuid: 2b5c32b2-a5f1-46a4-b429-cd8a7c0cb634
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bqZsN31T2n0UjcbyCpOPi9D2iO0sAOHR7FnEs9qMvaA
+id: comment
+label: 'Коментарі за замовчуванням'
+target_entity_type_id: node
+description: 'Дозволяє коментувати матеріали'

@@ -1,0 +1,25 @@
+uuid: 2d1a7f23-c1ad-4fbe-9a40-86e5783c0dc1
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b8eea398-a76c-41d6-a5b9-f3169989ec76'
+  module:
+    - block_content
+  theme:
+    - vpba
+id: entrant_item_menu
+theme: vpba
+region: footer
+weight: -16
+provider: null
+plugin: 'block_content:b8eea398-a76c-41d6-a5b9-f3169989ec76'
+settings:
+  id: 'block_content:b8eea398-a76c-41d6-a5b9-f3169989ec76'
+  label: 'Абітурієнту (пункт меню)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

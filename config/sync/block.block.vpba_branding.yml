@@ -1,0 +1,25 @@
+uuid: a486a084-b79b-4702-80ea-bafdabcba79a
+langcode: uk
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - vpba
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: vpba_branding
+theme: vpba
+region: navigation
+weight: -17
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендування сайту'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: 452360dd-a37b-44f5-b884-967a362d2550
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eNX6lLCKDaY83nCMh20My---y03KbiFlv802DKCCpvg
+id: und
+label: 'Не зазначено'
+direction: ltr
+weight: 7
+locked: true

@@ -1,0 +1,38 @@
+uuid: 775b0bfc-b008-4267-ad78-f1b137aea81b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - ctools
+    - system
+    - views
+  theme:
+    - vpba
+id: views_block__teachers_corporation
+theme: vpba
+region: content
+weight: -12
+provider: null
+plugin: 'views_block:news-block_5'
+settings:
+  id: 'views_block:news-block_5'
+  label: 'Корпорація викладачів'
+  provider: views
+  label_display: visible
+  views_label: 'Корпорація викладачів'
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /teachers/corporation
+    negate: false
+    context_mapping: {  }

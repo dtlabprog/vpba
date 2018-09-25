@@ -1,0 +1,20 @@
+uuid: 2a8fe462-c97b-4ffc-acdd-a0f8c48215ec
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.entrant.body
+    - field.field.node.entrant.field_file
+    - node.type.entrant
+  module:
+    - user
+id: node.entrant.default
+targetEntityType: node
+bundle: entrant
+mode: default
+content: {  }
+hidden:
+  body: true
+  field_file: true
+  langcode: true
+  links: true

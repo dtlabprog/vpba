@@ -1,0 +1,32 @@
+uuid: 66c1c3c3-7737-407d-8a41-6016e9122757
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.most_popular_content
+  module:
+    - node
+    - views
+  theme:
+    - vpba
+id: views_block__most_popular_content_block_2
+theme: vpba
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:most_popular_content-block_2'
+settings:
+  id: 'views_block:most_popular_content-block_2'
+  label: 'Популярна аналітика'
+  provider: views
+  label_display: visible
+  views_label: 'Популярна аналітика'
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      analitika: analitika
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

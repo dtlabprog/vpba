@@ -1,0 +1,22 @@
+uuid: d5e10b60-83d2-4371-88d4-4efd3bcebf1c
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: history
+label: Історія
+type: 'canonical_entities:node'
+pattern: 'history/[node:title]'
+selection_criteria:
+  fdcb5ab0-42fa-4ef3-afba-9d52991da02e:
+    id: node_type
+    bundles:
+      history: history
+    negate: false
+    context_mapping:
+      node: node
+    uuid: fdcb5ab0-42fa-4ef3-afba-9d52991da02e
+selection_logic: and
+weight: -5
+relationships: {  }

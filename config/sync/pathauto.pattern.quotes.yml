@@ -1,0 +1,22 @@
+uuid: 992512db-e504-4db6-ad27-5c1d9b5a47d2
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: quotes
+label: Цитати
+type: 'canonical_entities:node'
+pattern: 'quotes/[node:title]'
+selection_criteria:
+  3b9c68a8-961a-4f41-9bd0-e8fff0f95154:
+    id: node_type
+    bundles:
+      quotes: quotes
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 3b9c68a8-961a-4f41-9bd0-e8fff0f95154
+selection_logic: and
+weight: -5
+relationships: {  }

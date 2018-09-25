@@ -1,0 +1,25 @@
+uuid: 15d37073-10e6-4e09-b4fa-b9db671a38f5
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:87fb817b-076f-4a11-bab5-0fa610afbdd2'
+  module:
+    - block_content
+  theme:
+    - vpba
+id: multimedia_item_menu
+theme: vpba
+region: footer
+weight: -15
+provider: null
+plugin: 'block_content:87fb817b-076f-4a11-bab5-0fa610afbdd2'
+settings:
+  id: 'block_content:87fb817b-076f-4a11-bab5-0fa610afbdd2'
+  label: 'Мультимедія (пункт меню)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

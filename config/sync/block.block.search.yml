@@ -1,0 +1,29 @@
+uuid: a0de44de-e079-486f-9707-283909bea6ab
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.search
+  module:
+    - system
+  theme:
+    - vpba
+id: search
+theme: vpba
+region: navigation_collapsible
+weight: -24
+provider: null
+plugin: 'system_menu_block:search'
+settings:
+  id: 'system_menu_block:search'
+  label: Пошук
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

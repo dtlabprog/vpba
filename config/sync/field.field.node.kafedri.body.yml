@@ -1,0 +1,22 @@
+uuid: 026914b2-f0a9-4153-965f-ba38d66e06cb
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.kafedri
+  module:
+    - text
+id: node.kafedri.body
+field_name: body
+entity_type: node
+bundle: kafedri
+label: Текст
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

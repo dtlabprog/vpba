@@ -1,0 +1,38 @@
+uuid: cff95260-08a3-4e90-8794-7fb383834a44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_images_for_slider
+    - node.type.analitika
+  module:
+    - image
+id: node.analitika.field_images_for_slider
+field_name: field_images_for_slider
+entity_type: node
+bundle: analitika
+label: Слайди
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 640x480
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

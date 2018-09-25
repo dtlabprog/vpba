@@ -1,0 +1,10 @@
+<div id="search" class="hide">
+    <div class="content-container">
+        <a class="toggle-search" href="#"><span class="close-text"></span></a>
+        {% if count_items is not empty %}
+        <div class="count-items">{{ 'Results found - '|t }}{{ count_items }}</div>
+        {% endif %}
+        {{ content }}
+        <div id="results-container"></div>
+    </div>
+</div>

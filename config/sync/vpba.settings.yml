@@ -1,0 +1,25 @@
+cdn_provider: ''
+_core:
+  default_config_hash: _5qrDuRmWmRVjW00si3U1s1NrgrocA4N653EYGRfgEE
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: themes/custom/vpba/favicon.ico
+  url: 'http://localhost/vpba/web/themes/custom/vpba/favicon.ico'
+  use_default: false
+schemas:
+  bootstrap: 8000
+  vpba: 8000
+navbar_position: fixed-top
+table_responsive: '-1'
+table: ''
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://logotype.png'
+  url: ''
+  use_default: false
+navbar_inverse: 1
+langcode: uk

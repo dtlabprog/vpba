@@ -1,0 +1,20 @@
+uuid: 186bd63e-a774-4eb6-8554-f21218f52d62
+langcode: uk
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - vpba
+id: breadcrumbs
+theme: vpba
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

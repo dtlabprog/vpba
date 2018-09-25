@@ -1,0 +1,11 @@
+uuid: 570621cd-bc49-44be-9dbb-f83e5d88b08e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.vikladaci
+id: node.vikladaci
+target_entity_type_id: node
+target_bundle: vikladaci
+default_langcode: site_default
+language_alterable: false

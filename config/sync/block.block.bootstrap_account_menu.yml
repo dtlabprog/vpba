@@ -1,0 +1,26 @@
+uuid: 0a01168a-ab0f-48d9-9ba0-7bd238f9fd45
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - bootstrap
+_core:
+  default_config_hash: R2K_qX0ZUMbUL6ie_-S9tZVjvqmlWKlscikgeRv9vhw
+id: bootstrap_account_menu
+theme: bootstrap
+region: navigation_collapsible
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Меню облікового запису користувача'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

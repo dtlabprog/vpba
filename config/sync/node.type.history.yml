@@ -1,0 +1,18 @@
+uuid: 7d6496c9-5b81-48da-b7ac-320f0079ccfc
+langcode: uk
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Історія
+type: history
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

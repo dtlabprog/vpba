@@ -1,0 +1,10 @@
+uuid: f7cbed07-2c3a-44c6-a8d0-2a53e08a5a4c
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5VpawMrKPEPCkoO4YpPa0TDFO2dgiIHfTziJtwlmUxc
+id: html_yearless_date
+label: 'Дата без року HTML'
+locked: true
+pattern: m-d

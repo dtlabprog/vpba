@@ -1,0 +1,26 @@
+uuid: 5f1429eb-dfde-4490-bcba-6b51cac92ee8
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - bootstrap
+_core:
+  default_config_hash: f3Dd5TnUiFDjFZp9yEGJInwt6cUzs7O6SvLTFTATSlU
+id: bootstrap_tools
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Інструменти
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

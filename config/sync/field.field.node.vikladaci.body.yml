@@ -1,0 +1,22 @@
+uuid: 81a0143c-1d8e-42b7-b787-0e9717544224
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.vikladaci
+  module:
+    - text
+id: node.vikladaci.body
+field_name: body
+entity_type: node
+bundle: vikladaci
+label: Біографія
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

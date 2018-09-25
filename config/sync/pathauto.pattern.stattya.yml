@@ -1,0 +1,22 @@
+uuid: 585bcf29-bc1f-4251-ba38-4b990ad86428
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: stattya
+label: Стаття
+type: 'canonical_entities:node'
+pattern: 'article/[node:title]'
+selection_criteria:
+  8f8b86c7-93cc-436c-b243-ec3bb14f1721:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 8f8b86c7-93cc-436c-b243-ec3bb14f1721
+selection_logic: and
+weight: -5
+relationships: {  }

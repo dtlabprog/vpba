@@ -1,0 +1,38 @@
+uuid: b3d85718-5a14-4a51-822f-7ad18e0c5028
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_images_for_slider
+    - node.type.news
+  module:
+    - image
+id: node.news.field_images_for_slider
+field_name: field_images_for_slider
+entity_type: node
+bundle: news
+label: Слайди
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 640x480
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

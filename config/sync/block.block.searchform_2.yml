@@ -1,0 +1,26 @@
+uuid: 5969812b-9364-4e07-9ff6-5f0f22193973
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - vpba
+id: searchform_2
+theme: vpba
+region: navigation
+weight: -23
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
